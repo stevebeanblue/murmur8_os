@@ -1,12 +1,87 @@
 {
-  Model Name:	MacBook Pro,
-  Model Identifier:	MacBookPro13 3,
-  Processor Name:	Quad-Core Intel Core i7,
-  Processor Speed:	2.7 GHz,
-  Number of Processors:	1,
-  Total Number of Cores:	4,
-  L2 Cache (per Core):	256 KB,
-  L3 Cache:	8 MB,
-  Hyper-Threading Technology:	Enabled,
-  Memory:	16 GB
+  "Model Name" :	"MacBook Pro",
+  "Model Identifier" :	"MacBookPro13 3",
+  "Processor Name" :	"Quad-Core Intel Core i7",
+  "Processor Speed" :	"2.7 GHz",
+  "Number of Processors" :	1,
+  "Total Number of Cores" :	4,
+  "L2 Cache (per Core)" :	"256 KB",
+  "L3 Cache" :	"8 MB",
+  "Hyper-Threading Technology" :	"Enabled",
+  "Memory" :	"16 GB",
+  "Graphic Details" : {
+    "Intel HD Graphics 530" : {
+      "Chipset Model" :	"Intel HD Graphics 530",
+      "Type" :	"GPU",
+      "Bus" :	"Built-In",
+      "VRAM (Dynamic, Max)" :	"1536 MB",
+      "Vendor" :	"Intel",
+      "Automatic Graphics Switching" : "Supported",
+      "gMux Version" : "4.0.29 [3.2.8]",
+      "Metal Family" : "Supported, Metal GPUFamily macOS 2",
+      "Displays" : {
+        "Colour LCD" : {
+          "Display Type" : "Built-In Retina LCD",
+          "Resolution" : "2880x1800 Retina",
+          "Framebuffer Depth" :	"24-Bit Colour (ARGB8888)",
+          "Connection Type" :	"Internal"
+        }
+      },
+      "Radeon Pro 455" : {
+        "Chipset Model" :	"AMD Radeon Pro 455",
+        "Type" : "GPU",
+        "Bus" :	"PCIe",
+        "PCIe Lane Width" :	"x8",
+        "VRAM (Total)" :	"2 GB",
+        "Vendor" : "AMD (0x1002)",
+        "ROM Revision" : "113-C980AF-908",
+        "VBIOS Version" :	"113-C9801AP-028",
+        "EFI Driver Version" : "01.A0.908",
+        "Automatic Graphics Switching" : "Supported",
+        "gMux Version" : "4.0.29 [3.2.8]",
+        "Metal Family? : "Supported Metal GPUFamily macOS 2",
+      },
+    },
+    "Wi-fi card details" : {
+      "Card Type" :	"Wi-Fi  (0x14E4, 0x15A)",
+      "Firmware Version" : "Broadcom BCM43xx 1.0 (7.77.111.1 AirPortDriverBrcmNIC-1710.4)",
+      "Locale" :	"ETSI",
+      "Supported PHY Modes" :	"802.11 a/b/g/n/ac",
+      "Supported Channels" :	[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 149, 153, 157, 161, 165],
+      "Auto Unlock": "Supported"
+    },
+    "SPI" : { 
+      "Apple Internal Keyboard / Trackpad": {
+        "Product ID" : 0x0278,
+        "Vendor ID" :	"0x05ac (Apple Inc.)",
+        "ST Version" : 8.96,
+        "MT Version" : 4.69,
+        "Serial Number" :	"FM76504023KGJCP5Q+WDP",
+        "Location ID" :	"0x01000000" 
+      }
+    },
+    "PCI" : "None",
+    "USB" : {
+      "USB 3.0 Bus" : {
+        "Host Controller Driver" :	"AppleUSBXHCISPT",
+        "PCI Device ID" :	"0xa12f", 
+        "PCI Revision ID" :	"0x0031", 
+        "PCI Vendor ID" :	"0x8086", 
+        "Apple T1 Controller" : {
+          "Product ID" :	"0x8600",
+          "Vendor ID" :	"0x05ac (Apple Inc.)",
+          "Version" :	"1.01",
+          "Manufacturer" :	"Apple Inc.",
+          "Location ID" :	"0x14200000"
+        },
+        "USB 3.1 Bus" : {
+          "Host Controller Driver" :	"AppleUSBXHCIAR",
+          "PCI Device ID" :	"0x15d4", 
+          "PCI Revision ID" :	"0x0002", 
+          "PCI Vendor ID" :	"0x8086", 
+          "Bus Number" : "0x01" 
+        }
+      }
+    }
+  }
 }
