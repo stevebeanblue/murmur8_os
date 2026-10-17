@@ -8,6 +8,8 @@ Find out whether the built-in Broadcom Wi-Fi works under Linux, what firmware it
 
 The vision doc expects Broadcom hardware that needs proprietary firmware, so the early plan is "use Linux's Broadcom support, with USB ethernet as a fallback". The chip is expected to be a Broadcom PCIe part handled by the `brcmfmac` driver; confirm that with `lspci -nn` rather than assuming it.
 
+**Known from the macOS baseline** ([01](01_macos_baseline.md)): the vendor ID is `0x14E4` (Broadcom) and macOS shows the card ID as `0x15A`. It supports 802.11 a/b/g/n/ac on both 2.4 and 5 GHz, with the regulatory locale shown as ETSI. macOS reports its own firmware string (7.77.111.1), which belongs to Apple's driver and does not tell you what Linux will load, so the firmware filenames still have to come from `dmesg`.
+
 ## Prerequisites
 
 - [03](03_boot_and_inventory.md) done (booted into the live shell, inventory saved).

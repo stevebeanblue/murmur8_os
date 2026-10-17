@@ -8,6 +8,8 @@ Find out whether the built-in keyboard and trackpad work under the live kernel, 
 
 On this generation the keyboard and trackpad are connected over SPI, not USB. The vision doc's early plan is to use an external USB keyboard during bring-up. Mainline Linux has an `applespi` driver for SPI keyboards and trackpads on Macs of this era, but whether it loads and works on this exact model with the ISO's kernel is what Phase 0 needs to find out. Do not assume either way.
 
+**Known from the macOS baseline** ([01](01_macos_baseline.md)): the keyboard and trackpad appear as a single SPI device, "Apple Internal Keyboard / Trackpad", vendor `0x05ac`, product `0x0278`. Use those values when checking which driver claims it and whether the driver lists that product ID. The Apple T1 controller (`05ac:8600`) also shows up over USB; it drives the Touch Bar, which is deferred, so ignore it here.
+
 ## Prerequisites
 
 - [03](03_boot_and_inventory.md) done. The external USB keyboard stays connected throughout so you are never locked out.

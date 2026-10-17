@@ -6,7 +6,7 @@ Turn the raw notes from plans 01 to 06 into a single results record, make the de
 
 ## Results table
 
-Copy this into `.plans/phase_0/results.md` and fill it in. Use one status per row: **works**, **partial**, **fails** or **not tested**.
+The table lives in [results.md](results.md), already created with the macOS baseline facts filled in. Fill in the rest as you go. Use one status per row: **works**, **partial**, **fails** or **not tested**.
 
 | Area | Status | Evidence (log line, command, photo) | Workaround found | Follow-up phase |
 | --- | --- | --- | --- | --- |

@@ -6,7 +6,7 @@ Record how the Intel HD 530 and (if present) the discrete AMD Radeon Pro behave 
 
 ## Background
 
-The vision doc plans to use Intel graphics only. Most 15-inch 2016 models also carry a discrete AMD Radeon Pro, and [01](01_macos_baseline.md) tells you whether this one does. Both GPUs will likely be visible to Linux regardless of which one you intend to use, so Phase 0 records what each one does by default.
+The vision doc plans to use Intel graphics only. Most 15-inch 2016 models also carry a discrete AMD Radeon Pro, and the macOS baseline ([01](01_macos_baseline.md)) confirms this one does: an **AMD Radeon Pro 455** (2 GB, PCIe x8) alongside the Intel HD Graphics 530. macOS reports automatic graphics switching and a gMux (version 4.0.29), and it lists the built-in Retina display under the Intel GPU. Both GPUs will likely be visible to Linux regardless of which one you intend to use, so Phase 0 records what each one does by default.
 
 ## Prerequisites
 

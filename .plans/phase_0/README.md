@@ -28,6 +28,8 @@ Work through them in order.
 | 06 | [Graphics](06_graphics.md) | Intel and AMD behaviour recorded; "Intel only" plan tested |
 | 07 | [Results and exit](07_results_and_exit.md) | Results table filled, decisions recorded, follow-up backlog items drafted |
 
+Results are tracked in [results.md](results.md), which already holds the macOS baseline facts.
+
 ## Equipment
 
 - The MacBook Pro (15-inch, 2016), charged or on power.
